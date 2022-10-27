@@ -8,4 +8,4 @@ rpm -ivh /drivers/UNIFIED_DRVR_DMJJ6_RHEL8.4_37.00.02.00_A00/RHEL8.4/rpms-3/kmod
 modprobe -v mpt3sas 2>&1 |tee -a /tmp/log.txt
 echo 'end' >> /tmp/log.txt
 #while true; do sleep 30; done;
-/sbin/init
+tail -f /dev/null
